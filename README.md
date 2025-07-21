@@ -37,11 +37,6 @@ pip install -r requirements.txt
 python3 src/read_sensor.py
 ```
 
-4. Inicia el dashboard:
-
-```bash
-streamlit run src/dashboard.py
-```
 
 ## Uso con Docker
 
@@ -54,7 +49,7 @@ docker-compose up --build
 Toda la documentación detallada del sistema (instalación, parámetros configurables, estructura del código, manual de pruebas) está disponible en el archivo:
 
 ```
-docs/manual_tecnico.md
+DOCUMENTACION.md
 ```
 
 ## Créditos
