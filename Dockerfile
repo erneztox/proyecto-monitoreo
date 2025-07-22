@@ -4,6 +4,9 @@ FROM python:3.11-slim
 # Directorio de trabajo
 WORKDIR /app
 
+# Instalamos herramientas necesarias para compilación de paquetes
+RUN apt-get update && apt-get install -y build-essential gcc
+
 # Copiamos requirements.txt y luego instalamos dependencias
 COPY requirements.txt .
 
